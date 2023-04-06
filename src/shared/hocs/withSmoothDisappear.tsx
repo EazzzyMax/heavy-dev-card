@@ -10,7 +10,7 @@ const withSmoothDisappear = <P extends object>(
       const observer = new IntersectionObserver(
         (entries) => {
           const entry = entries[0];
-          const opacity = Math.min(entry.intersectionRatio * 2 - 0.5, 1);
+          const opacity = Math.min(entry.intersectionRatio * 1.5 - 0.5, 1);
 
           if (animatedRef.current) {
             animatedRef.current.style.opacity = `${opacity}`;

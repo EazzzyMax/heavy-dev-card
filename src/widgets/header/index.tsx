@@ -4,8 +4,8 @@ import {Container, Tab, Tabs, Title} from "./styles";
 
 const Header = () => {
     const tabs = [
-        {name: 'projects'},
-        {name: 'contacts'},
+        {name: 'проекты'},
+        {name: 'контакты'},
     ]
   return (
     <Container>

@@ -5,8 +5,8 @@ export interface Theme {
   textColor: string;
 }
 
-const theme = {
-  primaryColor: "#83D0F9",
+export const darkTheme = {
+  primaryColor: "#00D8FF",
   // secondaryColor: "#ff9800",
   backgroundColor: "#090419",
   textColor: "#ffffff",
@@ -14,4 +14,11 @@ const theme = {
 
 };
 
-export default theme;
+export const lightTheme = {
+  primaryColor: "#00D8FF",
+  // secondaryColor: "#ff9800",
+  backgroundColor: "#090419",
+  textColor: "#ffffff",
+  whiteHoverBackground: 'rgba(255, 255, 255, 0.03)',
+
+};
