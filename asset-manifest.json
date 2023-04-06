@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/heavy-dev-card/static/css/main.e29db87c.css",
-    "main.js": "/heavy-dev-card/static/js/main.3845bdb4.js",
+    "main.js": "/heavy-dev-card/static/js/main.76eade15.js",
     "static/media/Migra-Extrabold.ttf": "/heavy-dev-card/static/media/Migra-Extrabold.3c913ff79e001a1128c7.ttf",
     "index.html": "/heavy-dev-card/index.html",
     "main.e29db87c.css.map": "/heavy-dev-card/static/css/main.e29db87c.css.map",
-    "main.3845bdb4.js.map": "/heavy-dev-card/static/js/main.3845bdb4.js.map"
+    "main.76eade15.js.map": "/heavy-dev-card/static/js/main.76eade15.js.map"
   },
   "entrypoints": [
     "static/css/main.e29db87c.css",
-    "static/js/main.3845bdb4.js"
+    "static/js/main.76eade15.js"
   ]
 }
