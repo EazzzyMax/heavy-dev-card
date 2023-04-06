@@ -1,15 +1,14 @@
 import React from "react";
 import Main from "../pages/Main";
-import { ThemeProvider } from "styled-components";
-import theme from "../shared/theming/theme";
+import { darkTheme } from "../shared/theming/darkTheme";
+import {Global} from "./GlobalStyles";
 
 const App = () => {
   return (
-      //а нахуя я провайдер добавил? все равно же тему импортирую
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={darkTheme}>
+      <Global />
       <Main />
     </ThemeProvider>
-
   );
 };
 

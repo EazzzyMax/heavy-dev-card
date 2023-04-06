@@ -32,7 +32,6 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.p`
-  font-family: "JetBrains Mono", monospace;
   font-size: ${TITLE_FONT_SIZE};
   font-weight: 100;
 `;

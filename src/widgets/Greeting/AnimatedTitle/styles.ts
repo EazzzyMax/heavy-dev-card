@@ -16,10 +16,8 @@ const caretPulse = keyframes`
       }
 `;
 
-const pulse0 =
-    "text-shadow:  0 0 200px rgba(0, 216, 255, 1);";
-const pulse1 =
-    "text-shadow:  0 0 200px rgba(0, 216, 255, 0.4);";
+const pulse0 = "text-shadow:  0 0 200px rgba(0, 216, 255, 1);";
+const pulse1 = "text-shadow:  0 0 200px rgba(0, 216, 255, 0.4);";
 
 const textShadowPulse = keyframes`
       0% {
@@ -34,34 +32,35 @@ const textShadowPulse = keyframes`
 `;
 
 export const Container = styled.div`
-      display: flex;
-      gap: 4vw;
-      font-size: ${TITLE_FONT_SIZE};
-      font-weight: 800;
-      font-family: "JetBrains Mono", monospace;
+  display: flex;
+  gap: 4vw;
+  font-size: ${TITLE_FONT_SIZE};
+  font-weight: 800;
 `;
 
 export const StaticText = styled.p``;
 
 export const DynamicText = styled.a`
-      margin: -1.5vw;
-      padding: 1.5vw;
-      border-radius: 2vw;
-      color: ${({ theme }) => theme.primaryColor};
-      text-decoration: underline;
-      animation: ${textShadowPulse} 1.5s ease infinite;
+  font-family: "JetBrains Mono",serif;
+  margin: -1.5vw;
+  padding: 1.5vw;
+  border-radius: 2vw;
+  color: ${({ theme }) => theme.primaryColor};
+  text-decoration: underline;
+  animation: ${textShadowPulse} 1.5s ease infinite;
 
-      transition: background-color 500ms ease, backdrop-filter 500ms ease;
-      &:hover {
-            background-color: ${({ theme }) => theme.whiteHoverBackground};
-            backdrop-filter: blur(6px);
-      }
+  transition: background-color 500ms ease, backdrop-filter 500ms ease;
+  &:hover {
+    background-color: ${({ theme }) => theme.whiteHoverBackground};
+    backdrop-filter: blur(6px);
+  }
 `;
 
 export const Caret = styled.div`
-      margin-left: -2vw;
-      height: ${TITLE_FONT_SIZE};
-      width: 0.8vw;
-      background-color: ${({ theme }) => theme.primaryColor};
-      animation: ${caretPulse} 1.5s ease infinite;
+  margin-left: -2vw;
+  height: ${TITLE_FONT_SIZE};
+  width: 0.8vw;
+  //background-color: ${({ theme }) => theme.primaryColor};
+  background-color: #98cbf7;
+  animation: ${caretPulse} 1.5s ease infinite;
 `;
